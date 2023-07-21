@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --primary-clor: brown;
+        --custom-width: 330px;
+      }
+      .container {
+        background-color: beige;
+        height: 650px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        --primary-clor: brown;
+        --custom-width: 330px;
+
+        background-color: aqua;
+        width: var(--custom-width);
+        width: 330px;
+        height: 330px;
+        border: 2px solid var(--primary-clor);
+        margin: 5px;
+        padding: 5px;
+        /* box-shadow: 40px 10px brown;
+        /* box-shadow: -10px -60px brown; */
+
+        /* blur radius */
+        box-shadow: 10px 15px 10px pink;
+
+        /* spread  radius */
+        box-shadow: 10px 15px 10px 50px pink;
+
+        /* inner shadow */
+        box-shadow: inset 5px 5px pink;
+
+        /* multiple shadow */
+        box-shadow: 10px 15px red, 15px 8px green; */
+      }
+      
+      #head1{
+        /* text-shadow: 2px 3px 2px red; */
+
+        /* text-shadow: yellow 12px 13px 1px; */
+
+        /* text-shadow: yellow 12px 13px */
+        /* text-shadow:12px 13px */
+
+        text-shadow: yellow 12px 13px 1px , red 25px 3px 1px ;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="/download.jpeg" alt="Pic" />
+        <h2 id="head1">Welcome to mah kingdom</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+          aperiam molestias? Adipisci nam officia voluptate vitae suscipit sit,
+          eaque deleniti quasi nostrum minus architecto amet?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

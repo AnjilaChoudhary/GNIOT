@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Three</title>
+  </head>
+  <body>
+    <h2>Complex Form</h2>
+    <br />
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <br />
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+
+        <label for="phone">phone</label>
+        <input type="text" id="phone" />
+
+        <label for="Dob">Date of birth</label>
+        <input type="date" name="Dob" id="Dob" />
+
+        <span>Gender :</span>
+
+        <input type="radio" name="gender" id="gender" />
+        <label for="gender">Male</label>
+
+        <input type="radio" name="gender" id="gender" />
+        <label for="gender">Female</label>
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="US">United State</option>
+          <option value="India">India</option>
+          <option value="France">France</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Address</legend>
+
+        <label for="street">Street</label>
+        <input type="text" id="street" />
+
+        <label for="city">City</label>
+        <input type="text" id="city" />
+
+        <label for="state">State</label>
+        <input type="text" id="state" />
+
+        <label for="zipCode">Zipcode</label>
+        <input type="number" id="zipCode" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Other Information</legend>
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" cols="20" rows="5"></textarea>
+
+        <label for="terms">I agree to the terms of service</label>
+        <input type="checkbox" name="terms" id="terms">
+      </fieldset>
+
+      <br>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
